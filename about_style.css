@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+    min-width:300px;
+}
+li {
+    list-style: none;
+
+}
+
+.navbar-expand-lg{
+    background-color:#33415C;
+    ;
+}
+
+nav .navbar-brand img {
+    width: 100px;
+}
+
+nav a.navbar-brand {
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar-dark .navbar-toggler {
+    border: solid 1px #fff;
+    height: 50px;
+}
+
+
+.container-vagas h3 {
+    margin: 20px 0;
+    text-align: center;
+    color: #000;
+}
+
+.card-dev {
+    padding: 5px 20px;
+    margin: 0px 5px;
+    min-width: 210px;
+    background-color: #E5E5E5;
+    border:none;
+    align-items: center;
+}
+
+.col {
+    padding: 0;
+}
+
+.card-dev li:nth-child(2) {
+    border-left: solid 1px #9bacbb;
+    border-right: solid 1px #9bacbb;
+
+}
+
+.card-dev li {
+    padding: 0 10px;
+}
+
+.card-dev .card-botton a {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    color: #000;
+}
+
+.card-dev h4 {
+    color: #000;
+    font-size: 1.3rem;
+}
+
+.card-dev p {
+    margin: 0;
+}
+
+
+.descricao {
+    text-align: center;
+}
+
+.mt-4 a{
+    color: #000;
+}
+
+#logo-footer {
+    margin-right: 15px;
+    margin-top: 12px;
+    width: 100px
+}
+
+#div-logo-footer {
+    padding: 0px 10px;
+    align-items: center;
+
+}
+
+img.card-img-top {
+    border-radius: 50%;
+    width: 140px;
+    }
+
+.card-botton {
+    justify-content: space-between;
+    align-items: center;
+}
+footer {
+    background-color: #33415c;
+    color: #fff;
+    /* padding: 10px 30px; */
+}
+
+footer img {
+    margin-top: 30px;
+}
+footer .projeto-integrador {
+    margin-top: 20px;
+
+}
+
+.projeto-integrador h3{
+    font-size: 1.6rem;
+}
+
+ul {
+    padding: 0;
+}
+
+#sobre {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#objetivos-tecnologias {
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.sublinhado {
+    text-decoration:underline;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .carousel {
+      display: block;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .pesquisar h2 {
+        padding: 25px 0 15px 0;
+        
+    }
+    .col {
+        padding: 0 20px;
+    }
+    img.card-img-top {
+
+        display: block;
+    }
+
+    .row{
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+    
+    .navbar {
+        padding: 0.5rem 11rem;
+    }
+
+    #logo-footer {
+        margin-right: 15px;
+        margin-top: 12px;
+        width: 100px;
+        margin-left: 15%;
+    }
+}
